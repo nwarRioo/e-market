@@ -1,13 +1,17 @@
+import { FC, ReactElement } from "react"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Layout from "./components/Layout/Layout"
 
-function App() {
+const App: FC = (): ReactElement => {
 
   return (
-    <>
-      <div>
-        My app
-      </div>
-        
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<h1>HELLO</h1>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
