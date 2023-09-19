@@ -19,3 +19,8 @@
 body {
   background-color: #5C5470;
 }
+
+.active {
+  color: #FF6347;
+  border-bottom: 3px solid #f0f8ff;
+}

@@ -1,0 +1,21 @@
+.clothes {
+    margin-top: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #f0f8ff;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.link:hover {
+    color: #FF6347;
+}
+
