@@ -10,12 +10,13 @@
 
 .link {
     text-decoration: none;
-    color: #f0f8ff;
+    color: #FAF0E6;
     font-size: 18px;
+    font-weight: 500;
     padding-bottom: 10px;
 }
 
 .link:hover {
-    color: #FF6347;
+    color: #352F44;
 }
 

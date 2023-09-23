@@ -1,0 +1,16 @@
+.model {
+    width: 32%;
+    padding: 20px;
+    background-color: #B9B4C7;
+    cursor: pointer;
+}
+
+.model img {
+    width: 100%;
+}
+
+.modelName {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #FAF0E6;
+}

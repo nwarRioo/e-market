@@ -3,7 +3,7 @@
         {
             "image": "1.webp",
             "name": "Wrangler No.33",
-            "price": 1800,
+            "price": 18.50,
             "article": "JW111",
             "available": true,
             "category": "MEN"
@@ -11,28 +11,28 @@
         {
             "image": "2.webp",
             "name": "Wrangler Classic V",
-            "price": 2400,
+            "price": 24.00,
             "article": "JW222",
             "available": true,
             "category": "MEN"
         }, {
             "image": "3.webp",
             "name": "Wrangler Extreme",
-            "price": 2100,
+            "price": 21.80,
             "article": "JW333",
             "available": true,
             "category": "MEN"
         }, {
             "image": "4.webp",
             "name": "Wrangler Retro X",
-            "price": 2125,
+            "price": 21.20,
             "article": "JW444",
             "available": true,
             "category": "MEN"
         }, {
             "image": "5.webp",
             "name": "Wrangler No.23",
-            "price": 1900,
+            "price": 19.40,
             "article": "JW555",
             "available": true,
             "category": "MEN"
@@ -40,7 +40,7 @@
         {
             "image": "6.webp",
             "name": "Wrangler No.33",
-            "price": 2100,
+            "price": 24.55,
             "article": "J567",
             "available": true,
             "category": "WOMEN"
@@ -48,28 +48,28 @@
         {
             "image": "7.webp",
             "name": "Wrangler Classic MM",
-            "price": 2330,
+            "price": 23.30,
             "article": "JW456",
             "available": true,
             "category": "WOMEN"
         }, {
             "image": "8.webp",
             "name": "Wrangler Five Star",
-            "price": 4100,
+            "price": 41.00,
             "article": "JW345",
             "available": true,
             "category": "WOMEN"
         }, {
             "image": "9.webp",
             "name": "Wrangler Five Star Premium",
-            "price": 6800,
+            "price": 68.00,
             "article": "JW234",
             "available": true,
             "category": "WOMEN"
         }, {
             "image": "10.webp",
             "name": "Wrangler No.12",
-            "price": 1700,
+            "price": 17.00,
             "article": "JW123",
             "available": true,
             "category": "WOMEN"
