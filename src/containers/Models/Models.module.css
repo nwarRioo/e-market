@@ -1,3 +1,9 @@
 .models {
     margin-top: 30px;
 }
+
+@media screen and (max-width: 380px) {
+    .models {
+        margin-top: 10px;
+    }
+}

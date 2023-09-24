@@ -49,3 +49,18 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+	.model {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .modelButton {
+        display: flex;
+    }
+	.model {
+        width: 100%;
+    }
+}

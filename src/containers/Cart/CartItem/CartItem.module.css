@@ -21,3 +21,41 @@
 .itemInfo p {
     font-size: 20px;
 }
+
+.qty {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.qtyBox {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    width: 80px;
+    padding: 0 10px;
+}
+
+.qtyBox p {
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.qtyBox p:hover {
+    color: #FF6347;
+}
+
+@media screen and (max-width: 380px) {
+	.itemInfo h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .qty {
+        margin-top: 10px;
+    }
+}

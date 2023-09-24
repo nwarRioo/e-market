@@ -14,3 +14,9 @@
 .linkCart:hover {
     color: #FF6347;
 }
+
+@media screen and (max-width: 500px) {
+    .linkCart p {
+        display: none;
+    }
+}

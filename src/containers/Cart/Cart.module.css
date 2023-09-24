@@ -1,6 +1,30 @@
 .cart {
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    min-height: calc(100vh - 276px)
+}
+
+.cartTitle {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #251504;
+}
+
+.cartTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 380px) {
+	.cartTitle {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .cartTop {
+        flex-direction: column;
+    }
 }
