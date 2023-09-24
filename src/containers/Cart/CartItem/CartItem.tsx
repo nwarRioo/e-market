@@ -40,7 +40,7 @@ const CartItem: FC<ICartItemProps> = ({model}): ReactElement => {
     return (
         <div className={styles.cartItem}>
             <div className={styles.image}>
-                <img src={`../../../src/assets/images/clothes/jeans/${model.image}`} alt={model.name} />
+                <img src={`./clothes/jeans/${model.image}`} alt={model.name} />
             </div>
             <div className={styles.itemInfo}>
                 <h2>{model.name}</h2>

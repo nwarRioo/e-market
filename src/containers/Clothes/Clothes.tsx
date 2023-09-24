@@ -9,8 +9,8 @@ const Clothes: FC = (): ReactElement => {
         <Container>
             <div className={styles.clothes}>
                 <div className={styles.links}>
-                    <NavLink to={"/"} className={styles.link}>Men</NavLink>
-                    <NavLink to={"/women"} className={styles.link}>Women</NavLink>
+                    <NavLink to={"/e-market/"} className={styles.link}>Men</NavLink>
+                    <NavLink to={"/e-market/women"} className={styles.link}>Women</NavLink>
                 </div>
                 <Outlet />
             </div>

@@ -1,4 +1,4 @@
-import { FC, useEffect } from "react";
+import { FC } from "react";
 import IModel from "../../../interfaces/IModel";
 import styles from "./Model.module.css";
 import { AppDispatch, AppState } from "../../../store/store";
@@ -28,7 +28,7 @@ const Model: FC<IModelProps> = ({model}) => {
     return (
         <div className={styles.model}>
             <div className={styles.modelTop}>
-                <img src={`../../../src/assets/images/clothes/jeans/${model.image}`} alt={model.name} />
+                <img src={`./clothes/jeans/${model.image}`} alt={model.name} />
                 <div className={styles.modelButton}>
                     <button onClick={() => addToBag(model)}>ADD TO BAG</button>
                 </div>

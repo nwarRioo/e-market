@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import { FC, ReactElement, useState, useEffect } from "react";
+import { FC, ReactElement, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { Container } from "../UI/Container/Container";
@@ -19,9 +19,9 @@ const Header: FC = (): ReactElement => {
         <header>
             <Container> 
                 <div className={styles.header_content}>
-                    <Link to={"/"} className={styles.logo} />
+                    <Link to={"/e-market/"} className={styles.logo} />
                     <div className={styles.navbar}>
-                        <NavLink to={"/cart"} className={"linkCart"}>
+                        <NavLink to={"/e-market/cart"} className={"linkCart"}>
                             <div className={styles.shopping_cart}>
                                 <div className={`${styles.count} ${totalCount > 0 && styles.showCount}`}>{totalCount > 0 ? totalCount : null}</div>
                             </div>

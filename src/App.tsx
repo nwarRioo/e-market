@@ -11,11 +11,11 @@ const App: FC = (): ReactElement => {
   return (
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Clothes />}>
-            <Route index path="/" element={<Models gender={EGender.MEN}/>} />
-            <Route path="women" element={<Models gender={EGender.WOMEN}/>} />
+          <Route path="/e-market/" element={<Clothes />}>
+            <Route index element={<Models gender={EGender.MEN}/>} />
+            <Route path="/e-market/women" element={<Models gender={EGender.WOMEN}/>} />
           </Route>
-          <Route path="/cart" element={<Cart />} />
+          <Route path="/e-market/cart" element={<Cart />} />
         </Route>
       </Routes>
   )
