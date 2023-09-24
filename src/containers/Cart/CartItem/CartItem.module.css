@@ -1,0 +1,23 @@
+.cartItem {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 6px 0px rgb(128, 126, 126);
+}
+
+.image {
+    width: 150px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.itemInfo h2 {
+    margin-bottom: 20px;
+}
+
+.itemInfo p {
+    font-size: 20px;
+}

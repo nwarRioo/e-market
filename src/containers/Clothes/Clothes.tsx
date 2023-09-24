@@ -1,7 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
 import { Container } from "../../components/UI/Container/Container";
 import styles from "./Clothes.module.css";
-import { FC, ReactElement, useState } from "react";
+import { FC, ReactElement } from "react";
 
 
 const Clothes: FC = (): ReactElement => {

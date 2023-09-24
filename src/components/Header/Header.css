@@ -1,0 +1,16 @@
+.linkCart {
+    text-decoration: none;
+    color: #f0f8ff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.linkCart.active {
+    color: #FF6347;
+    border: none;
+}
+
+.linkCart:hover {
+    color: #FF6347;
+}

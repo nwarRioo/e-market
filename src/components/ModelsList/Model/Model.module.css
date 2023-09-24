@@ -5,6 +5,19 @@
     cursor: pointer;
 }
 
+.model:hover {
+    box-shadow: 0 0 10px -2px #5C5470;
+}
+
+.modelTop {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
 .model img {
     width: 100%;
 }
@@ -13,4 +26,26 @@
     text-transform: uppercase;
     font-weight: 500;
     color: #FAF0E6;
+}
+
+.model:hover .modelButton {
+    display: flex;
+}
+
+.modelButton {
+    position: absolute;
+    background-color: #5C5470;
+    padding: 15px;
+    width: 90%;
+    bottom: 1rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modelButton button {
+    width: 100%;
+    height: 30px;
+    font-weight: 600;
+    cursor: pointer;
 }
